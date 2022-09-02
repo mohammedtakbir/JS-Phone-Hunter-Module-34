@@ -51,7 +51,7 @@ processSearch = (dataLimit) => {
     loadPhones(searchText, dataLimit);
 }
 const searchProcess = dataLimit => {
-    //* start loader
+    //* start loader 
     toggleSpinner(true)
     const searchField = document.getElementById('phone-field');
     const searchText = searchField.value;
